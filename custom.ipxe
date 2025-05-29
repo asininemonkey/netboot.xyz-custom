@@ -1,3 +1,6 @@
 #!ipxe
 
 menu Custom Menu
+
+item test Test
+
