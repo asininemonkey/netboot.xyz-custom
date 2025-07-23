@@ -1,5 +1,6 @@
 #!ipxe
 
+:start
 menu Custom Menu
 
 item test1 Test 1
@@ -9,3 +10,9 @@ choose test
 
 :test1
 reboot
+
+echo Failed. Returning to menu in 3 seconds...
+
+sleep 3
+
+goto start
